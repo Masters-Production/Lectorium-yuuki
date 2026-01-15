@@ -27,13 +27,14 @@
 | CLOSING: Agitația | 13-20 | 4-5 min |
 | CLOSING: Soluția | 21-25 | 2-3 min |
 | CLOSING: Ce conține | 26-30 | 3-4 min |
-| CLOSING: 4 Nivele | 31-35 | 3-4 min |
-| CLOSING: Exclusivitate | 36-41 | 2-3 min |
-| CLOSING: Oferta | 42-45 | 2 min |
-| CLOSING: CTA multiplu | 46-53 | 5-6 min |
-| CLOSING: Alarma | 54-58 | 2-3 min |
-| CLOSING: Nota înaltă | 59-61 | 2 min |
-| **TOTAL CLOSING** | **56 slide-uri** | **~30 min** |
+| **CLOSING: Preview Teme** | **31-40** | **5-6 min** |
+| CLOSING: 4 Nivele | 41-45 | 3-4 min |
+| CLOSING: Exclusivitate | 46-51 | 2-3 min |
+| CLOSING: Oferta | 52-55 | 2 min |
+| CLOSING: CTA multiplu | 56-63 | 5-6 min |
+| CLOSING: Alarma | 64-68 | 2-3 min |
+| CLOSING: Nota înaltă | 69-71 | 2 min |
+| **TOTAL CLOSING** | **66 slide-uri** | **~35 min** |
 
 ---
 
@@ -396,20 +397,156 @@ E un mediu de oameni care FAC PAȘI.
 
 ---
 
+# CLOSING — PARTEA 4B: PREVIEW TEMATIC
+
+*Ce teme găsești în Lectorium — mostră*
+
+---
+
+### SLIDE 31
+```
+DAR CE GĂSEȘTI CONCRET ÎN LECTORIUM?
+
+Hai să-ți arăt câteva din temele
+pe care le vom parcurge împreună.
+```
+
+---
+
+### SLIDE 32
+```
+🧠 CUM FUNCȚIONEAZĂ MOTIVAȚIA TA
+ȘI DE CE UNEORI NU MAI FUNCȚIONEAZĂ
+
+→ De ce te trezești fără chef de nimic
+→ Ce e dopamina și cum te sabotează
+→ Cum să-ți recapeți energia de viață
+
+RĂSPUNSUL LA "NU MAI AM CHEF DE NIMIC"
+```
+
+---
+
+### SLIDE 33
+```
+🎯 "NU ȘTIU CE VREAU"
+
+→ Cele 5 cauze ale blocajului
+→ Cum să redescoperi dorințele reale
+→ Exerciții concrete pentru claritate
+
+PENTRU CÂND SIMȚI CĂ AI PIERDUT DIRECȚIA
+```
+
+---
+
+### SLIDE 34
+```
+💔 RELAȚIILE CARE TE EPUIZEAZĂ
+
+→ Cum să pui limite fără să te simți vinovată
+→ Comunicarea în cuplu când "nu ne mai înțelegem"
+→ Cum recunoști relațiile toxice
+
+PENTRU CÂND DAI MAI MULT DECÂT PRIMEȘTI
+```
+
+---
+
+### SLIDE 35
+```
+💰 BANII CARE ÎȚI CREEAZĂ ANXIETATE
+
+→ Relația ta cu banii vine din copilărie
+→ De ce câștigi, dar nu rămâne nimic
+→ Cum să-ți reconstruiești mentalitatea financiară
+
+PENTRU CÂND BANII SUNT O SURSĂ DE STRES
+```
+
+---
+
+### SLIDE 36
+```
+📓 DIAGNOSTICĂ ȘI JURNAL EMOȚIONAL
+
+→ Instrumentele pe care le folosesc în terapie
+→ Cum să găsești rădăcina problemei
+→ Cum să nu mai repeți aceleași pattern-uri
+
+PENTRU CÂND "MĂ ÎNTORC MEREU ÎN ACELAȘI PUNCT"
+```
+
+---
+
+### SLIDE 37
+```
+🚪 ÎNCHIDEM DEFICITELE
+
+→ De ce tolerezi situații care te distrug
+→ Cum funcționează creierul când ești în lipsă
+→ Pași concreți să ieși din cerc
+
+PENTRU CÂND "ȘTIU CĂ NU E BINE,
+DAR NU REUȘESC SĂ SCHIMB NIMIC"
+```
+
+---
+
+### SLIDE 38
+```
+ȘI MULTE ALTELE:
+
+→ Anxietatea — de unde vine și ce faci cu ea
+→ Autosabotajul — de ce îți stai singură în cale
+→ Încrederea în sine — cum o reconstruiești
+→ Comunicarea — cum să fii auzită
+→ Trigger-ele emoționale — cum le dezactivezi
+```
+
+---
+
+### SLIDE 39
+```
+ÎN FIECARE LUNĂ — LECȚII NOI.
+
+Nu e un curs pe care îl termini și gata.
+E un spațiu viu, care crește cu tine.
+
+Problemele tale se schimbă?
+Lectorium are răspunsuri pentru fiecare etapă.
+```
+
+---
+
+### SLIDE 40
+```
+ȘI NU EȘTI SINGURĂ.
+
+Live-uri tematice cu experți invitați.
+Sesiuni Q&A unde întrebi și primești răspuns.
+Comunitate de femei care merg în aceeași direcție.
+
+NU MAI CAUȚI ORE PE YOUTUBE.
+INTRI, GĂSEȘTI, APLICI.
+```
+
+---
+
 # CLOSING — PARTEA 5: CELE 4 NIVELE DE TRANSFORMARE
 
 *A avea → A face → A simți → A fi*
 
 ---
 
-### SLIDE 31
+### SLIDE 41
 ```
 CE SE SCHIMBĂ CÂND INTRI ÎN LECTORIUM?
 ```
 
 ---
 
-### SLIDE 32
+### SLIDE 42
 ```
 CE VEI AVEA:
 
@@ -421,7 +558,7 @@ CE VEI AVEA:
 
 ---
 
-### SLIDE 33
+### SLIDE 43
 ```
 CE VEI FACE DIFERIT:
 
@@ -437,7 +574,7 @@ CE VEI FACE DIFERIT:
 
 ---
 
-### SLIDE 34
+### SLIDE 44
 ```
 CUM TE VEI SIMȚI:
 
@@ -450,7 +587,7 @@ CUM TE VEI SIMȚI:
 
 ---
 
-### SLIDE 35
+### SLIDE 45
 ```
 CINE VEI DEVENI:
 
@@ -472,14 +609,14 @@ Care FACE PAȘI, nu doar visează.
 
 ---
 
-### SLIDE 36
+### SLIDE 46
 ```
 ACUM, PARTEA IMPORTANTĂ.
 ```
 
 ---
 
-### SLIDE 37
+### SLIDE 47
 ```
 LECTORIUM NU VA FI DISPONIBIL
 PENTRU TOATĂ LUMEA.
@@ -490,7 +627,7 @@ DOAR pentru cei care sunt
 
 ---
 
-### SLIDE 38
+### SLIDE 48
 ```
 DACĂ NU EȘTI PE LISTĂ:
 
@@ -501,14 +638,14 @@ DACĂ NU EȘTI PE LISTĂ:
 
 ---
 
-### SLIDE 39
+### SLIDE 49
 ```
 DE CE FAC ASTA?
 ```
 
 ---
 
-### SLIDE 40
+### SLIDE 50
 ```
 Vreau în Lectorium oameni
 care CHIAR VOR să fie acolo.
@@ -522,7 +659,7 @@ Oameni care știu ce îi așteaptă
 
 ---
 
-### SLIDE 41
+### SLIDE 51
 ```
 ASTA CREEAZĂ O COMUNITATE DE CALITATE.
 
@@ -537,14 +674,14 @@ ASTA CREEAZĂ O COMUNITATE DE CALITATE.
 
 ---
 
-### SLIDE 42
+### SLIDE 52
 ```
 CE PRIMEȘTI DACĂ TE ÎNSCRII ÎN LISTĂ?
 ```
 
 ---
 
-### SLIDE 43
+### SLIDE 53
 ```
 ✓ ACCES EXCLUSIV LA OFERTA DE LANSARE
   Reducere de peste 50%
@@ -558,7 +695,7 @@ CE PRIMEȘTI DACĂ TE ÎNSCRII ÎN LISTĂ?
 
 ---
 
-### SLIDE 44
+### SLIDE 54
 ```
 ÎNSCRIEREA ÎN LISTĂ E GRATUITĂ.
 
@@ -568,7 +705,7 @@ Doar îți rezervi locul.
 
 ---
 
-### SLIDE 45
+### SLIDE 55
 ```
 PE 27 IANUARIE
 voi deschide ușa pentru cei de pe listă.
@@ -586,7 +723,7 @@ Vei vedea tot ce conține Lectorium.
 
 ---
 
-### SLIDE 46
+### SLIDE 56
 ```
 DACĂ VREI SĂ FACI PAȘI MICI,
 ÎN RITMUL TĂU,
@@ -599,7 +736,7 @@ FĂRĂ PRESIUNE
 
 ---
 
-### SLIDE 47
+### SLIDE 57
 ```
 CUM FACI:
 
@@ -614,7 +751,7 @@ Durează 30 de secunde.
 
 ---
 
-### SLIDE 48
+### SLIDE 58
 ```
 DACĂ AI STAT PÂNĂ ACUM
 ÎNSEAMNĂ CĂ CEVA A REZONAT.
@@ -628,7 +765,7 @@ Nu ignora semnalul ăsta.
 
 ---
 
-### SLIDE 49
+### SLIDE 59
 ```
 DACĂ TE-AI SĂTURAT:
 
@@ -643,7 +780,7 @@ Lectorium e construit exact pentru asta.
 
 ---
 
-### SLIDE 50
+### SLIDE 60
 ```
 DACĂ AI RECUNOSCUT ÎN TINE
 una din cele 3 surse:
@@ -660,7 +797,7 @@ pentru FIECARE.
 
 ---
 
-### SLIDE 51
+### SLIDE 61
 ```
 NU TE COSTĂ NIMIC SĂ TE ÎNSCRII.
 
@@ -675,7 +812,7 @@ TU VEI FI AFARĂ.
 
 ---
 
-### SLIDE 52
+### SLIDE 62
 ```
 GÂNDEȘTE-TE:
 
@@ -690,7 +827,7 @@ Sau mai rău.
 
 ---
 
-### SLIDE 53
+### SLIDE 63
 ```
 ACUM AI DOUĂ VARIANTE:
 
@@ -714,14 +851,14 @@ B) Nu te înscrii.
 
 ---
 
-### SLIDE 54
+### SLIDE 64
 ```
 UN LUCRU IMPORTANT.
 ```
 
 ---
 
-### SLIDE 55
+### SLIDE 65
 ```
 OFERTA DE PE 27 IANUARIE
 VA FI DISPONIBILĂ DOAR 4 ZILE.
@@ -732,7 +869,7 @@ După aceea — prețurile cresc
 
 ---
 
-### SLIDE 56
+### SLIDE 66
 ```
 DE ACEEA:
 
@@ -745,7 +882,7 @@ Scrie în telefon:
 
 ---
 
-### SLIDE 57
+### SLIDE 67
 ```
 SERIOS.
 
@@ -760,7 +897,7 @@ Aștept.
 
 ---
 
-### SLIDE 58
+### SLIDE 68
 ```
 AI PUS?
 
@@ -777,7 +914,7 @@ Ne vedem pe 27 ianuarie.
 
 ---
 
-### SLIDE 59
+### SLIDE 69
 ```
 MULȚUMESC CĂ AI FOST AICI.
 
@@ -790,7 +927,7 @@ Că ești gata pentru schimbare.
 
 ---
 
-### SLIDE 60
+### SLIDE 70
 ```
 DACĂ NU TE-AI ÎNSCRIS ÎNCĂ:
 
@@ -805,7 +942,7 @@ Durează 30 de secunde.
 
 ---
 
-### SLIDE 61
+### SLIDE 71
 ```
 NE VEDEM PE 27 IANUARIE.
 
