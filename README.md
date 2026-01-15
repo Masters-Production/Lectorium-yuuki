@@ -46,6 +46,16 @@ Warmup de 13 zile cu 4 webinare gratuite care duc la vânzarea abonamentelor Lec
 | `CAMPANIE-FINALA-15-27-IANUARIE.md` | **DOCUMENT PRINCIPAL** - Warmup complet (13 zile, 37+ mesaje) |
 | `FOLLOWUP-28-31-IANUARIE.md` | **FOLLOW-UP** - După webinar vânzare (5 zile, 31 mesaje) |
 
+### LIVE-Prezentari/
+
+| Fișier | Descriere |
+|--------|-----------|
+| `LIVE3-VANZARE-INTENSIFICATA.md` | **Script vânzare Live 3** - 61 slide-uri (deschidere + closing) cu principii Hristosenko |
+
+> **Conținut Live 3 - Vânzare Intensificată:**
+> - Opening (5 slide-uri): Privivka - anunț Lectorium, promisiune conținut special la final
+> - Closing (56 slide-uri): Pod → Agitație → Soluție → 4 Niveluri Transformare → Exclusivitate → Ofertă → 7 CTA-uri → Alarm → High Note
+
 ---
 
 ## Cum să Folosești
