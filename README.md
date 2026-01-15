@@ -51,10 +51,15 @@ Warmup de 13 zile cu 4 webinare gratuite care duc la vânzarea abonamentelor Lec
 | Fișier | Descriere |
 |--------|-----------|
 | `LIVE3-VANZARE-INTENSIFICATA.md` | **Script vânzare Live 3** - 61 slide-uri (deschidere + closing) cu principii Hristosenko |
+| `Lectii-Lectorium-Complet.md` | **Toate lecțiile Lectorium** - conținut complet pentru prezentări, link-uri Canva/Gamma |
 
 > **Conținut Live 3 - Vânzare Intensificată:**
 > - Opening (5 slide-uri): Privivka - anunț Lectorium, promisiune conținut special la final
 > - Closing (56 slide-uri): Pod → Agitație → Soluție → 4 Niveluri Transformare → Exclusivitate → Ofertă → 7 CTA-uri → Alarm → High Note
+
+> **Lecții Lectorium incluse:**
+> - Lecția 1: Cum funcționează motivația (dopamină)
+> - Lecția 2-N: Conținut complet pentru toate prezentările
 
 ---
 
