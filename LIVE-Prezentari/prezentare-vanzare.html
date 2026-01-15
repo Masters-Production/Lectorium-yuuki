@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lectorium - Prezentare Vanzare</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --bg-color: #E8F0EC;
+            --accent-start: #1A4A4A;
+            --accent-end: #2D7A7A;
+            --text-color: #1A3A3A;
+            --white: #ffffff;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            overflow: hidden;
+            height: 100vh;
+            width: 100vw;
+        }
+
+        .presentation-container {
+            width: 100%;
+            height: 100%;
+            position: relative;
+        }
+
+        .slide {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 60px;
+            opacity: 0;
+            visibility: hidden;
+            transition: opacity 0.5s ease, visibility 0.5s ease;
+        }
+
+        .slide.active {
+            opacity: 1;
+            visibility: visible;
+        }
+
+        .slide-content {
+            max-width: 1400px;
+            width: 100%;
+            text-align: center;
+        }
+
+        /* Slide 1 - Text simplu centrat */
+        .slide-1 .title {
+            font-size: 4rem;
+            font-weight: 800;
+            margin-bottom: 2rem;
+            letter-spacing: -0.02em;
+        }
+
+        .slide-1 .subtitle {
+            font-size: 2.5rem;
+            font-weight: 500;
+            opacity: 0.9;
+        }
+
+        /* Slide 2 - Blockquote style */
+        .slide-2 .main-text {
+            font-size: 3rem;
+            font-weight: 700;
+            margin-bottom: 3rem;
+            line-height: 1.3;
+        }
+
+        .slide-2 .main-text .highlight {
+            background: linear-gradient(135deg, var(--accent-start), var(--accent-end));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .slide-2 .blockquote {
+            display: flex;
+            align-items: flex-start;
+            justify-content: center;
+            gap: 1.5rem;
+            text-align: left;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        .slide-2 .blockquote-line {
+            width: 6px;
+            min-height: 100px;
+            background: linear-gradient(180deg, var(--accent-start), var(--accent-end));
+            border-radius: 3px;
+            flex-shrink: 0;
+        }
+
+        .slide-2 .blockquote-text {
+            font-size: 2rem;
+            font-weight: 500;
+            line-height: 1.6;
+            opacity: 0.85;
+        }
+
+        /* Slide 3 - LECTORIUM mare */
+        .slide-3 .brand {
+            font-size: 7rem;
+            font-weight: 900;
+            background: linear-gradient(135deg, var(--accent-start), var(--accent-end));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin-bottom: 2.5rem;
+            letter-spacing: -0.03em;
+        }
+
+        .slide-3 .brand::before {
+            content: "Se numeste ";
+            font-size: 2rem;
+            font-weight: 600;
+            -webkit-text-fill-color: var(--text-color);
+            display: block;
+            margin-bottom: 0.5rem;
+            letter-spacing: 0;
+        }
+
+        .slide-3 .description {
+            font-size: 1.8rem;
+            font-weight: 500;
+            line-height: 1.8;
+            opacity: 0.85;
+            margin-bottom: 2rem;
+        }
+
+        .slide-3 .conclusion {
+            font-size: 2rem;
+            font-weight: 700;
+            margin-top: 1.5rem;
+        }
+
+        .slide-3 .conclusion .highlight {
+            background: linear-gradient(135deg, var(--accent-start), var(--accent-end));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        /* Slide 4 - Lista cu sageti */
+        .slide-4 .title {
+            font-size: 3rem;
+            font-weight: 700;
+            margin-bottom: 3rem;
+        }
+
+        .slide-4 .list {
+            text-align: left;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .slide-4 .list-item {
+            font-size: 2rem;
+            font-weight: 500;
+            margin-bottom: 1.5rem;
+            display: flex;
+            align-items: flex-start;
+            gap: 1rem;
+        }
+
+        .slide-4 .list-item .arrow {
+            color: var(--accent-end);
+            font-weight: 700;
+            flex-shrink: 0;
+        }
+
+        .slide-4 .list-item.indented {
+            padding-left: 2.5rem;
+        }
+
+        .slide-4 .list-item .highlight {
+            background: linear-gradient(135deg, var(--accent-start), var(--accent-end));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            font-weight: 700;
+        }
+
+        /* Slide 5 - Banner gradient */
+        .slide-5 .intro {
+            font-size: 2.5rem;
+            font-weight: 600;
+            margin-bottom: 3rem;
+        }
+
+        .slide-5 .banner {
+            background: linear-gradient(135deg, var(--accent-start), var(--accent-end));
+            border-radius: 20px;
+            padding: 3rem 4rem;
+            color: var(--white);
+            max-width: 1000px;
+            margin: 0 auto 3rem;
+            box-shadow: 0 20px 60px rgba(26, 74, 74, 0.3);
+        }
+
+        .slide-5 .banner-text {
+            font-size: 2rem;
+            font-weight: 600;
+            line-height: 1.6;
+        }
+
+        .slide-5 .banner-text .emphasis {
+            font-weight: 800;
+            text-transform: uppercase;
+        }
+
+        .slide-5 .cta {
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-top: 2rem;
+            opacity: 0.9;
+        }
+
+        /* Navigation */
+        .nav-container {
+            position: fixed;
+            bottom: 40px;
+            left: 50%;
+            transform: translateX(-50%);
+            display: flex;
+            align-items: center;
+            gap: 2rem;
+            z-index: 100;
+        }
+
+        .nav-btn {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            border: none;
+            background: linear-gradient(135deg, var(--accent-start), var(--accent-end));
+            color: var(--white);
+            font-size: 1.5rem;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            box-shadow: 0 4px 15px rgba(26, 74, 74, 0.3);
+        }
+
+        .nav-btn:hover {
+            transform: scale(1.1);
+            box-shadow: 0 6px 25px rgba(26, 74, 74, 0.4);
+        }
+
+        .nav-btn:disabled {
+            opacity: 0.4;
+            cursor: not-allowed;
+            transform: none;
+        }
+
+        .slide-indicator {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: var(--text-color);
+            min-width: 80px;
+            text-align: center;
+        }
+
+        /* Fullscreen button */
+        .fullscreen-btn {
+            position: fixed;
+            top: 30px;
+            right: 30px;
+            width: 50px;
+            height: 50px;
+            border-radius: 12px;
+            border: none;
+            background: rgba(26, 74, 74, 0.1);
+            color: var(--text-color);
+            font-size: 1.3rem;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: background 0.3s ease, transform 0.3s ease;
+            z-index: 100;
+        }
+
+        .fullscreen-btn:hover {
+            background: rgba(26, 74, 74, 0.2);
+            transform: scale(1.05);
+        }
+
+        /* Progress bar */
+        .progress-bar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            height: 4px;
+            background: linear-gradient(90deg, var(--accent-start), var(--accent-end));
+            transition: width 0.5s ease;
+            z-index: 100;
+        }
+
+        /* Responsive */
+        @media (max-width: 1200px) {
+            .slide-1 .title { font-size: 3rem; }
+            .slide-1 .subtitle { font-size: 2rem; }
+            .slide-2 .main-text { font-size: 2.5rem; }
+            .slide-2 .blockquote-text { font-size: 1.5rem; }
+            .slide-3 .brand { font-size: 5rem; }
+            .slide-3 .description { font-size: 1.5rem; }
+            .slide-4 .title { font-size: 2.5rem; }
+            .slide-4 .list-item { font-size: 1.5rem; }
+            .slide-5 .intro { font-size: 2rem; }
+            .slide-5 .banner-text { font-size: 1.5rem; }
+        }
+
+        @media (max-width: 768px) {
+            .slide { padding: 30px; }
+            .slide-1 .title { font-size: 2.5rem; }
+            .slide-1 .subtitle { font-size: 1.5rem; }
+            .slide-2 .main-text { font-size: 2rem; }
+            .slide-2 .blockquote-text { font-size: 1.2rem; }
+            .slide-3 .brand { font-size: 3.5rem; }
+            .slide-3 .brand::before { font-size: 1.5rem; }
+            .slide-3 .description { font-size: 1.2rem; }
+            .slide-4 .title { font-size: 2rem; }
+            .slide-4 .list-item { font-size: 1.2rem; }
+            .slide-5 .intro { font-size: 1.5rem; }
+            .slide-5 .banner { padding: 2rem; }
+            .slide-5 .banner-text { font-size: 1.2rem; }
+            .nav-btn { width: 50px; height: 50px; font-size: 1.2rem; }
+            .slide-indicator { font-size: 1.2rem; }
+        }
+
+        /* Aspect ratio container for 16:9 */
+        @media (min-aspect-ratio: 16/9) {
+            .slide-content {
+                max-width: 80%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="progress-bar" id="progressBar"></div>
+
+    <button class="fullscreen-btn" onclick="toggleFullscreen()" title="Fullscreen">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M8 3H5a2 2 0 0 0-2 2v3m18 0V5a2 2 0 0 0-2-2h-3m0 18h3a2 2 0 0 0 2-2v-3M3 16v3a2 2 0 0 0 2 2h3"/>
+        </svg>
+    </button>
+
+    <div class="presentation-container">
+        <!-- Slide 1 -->
+        <div class="slide slide-1 active" data-slide="1">
+            <div class="slide-content">
+                <h1 class="title">INAINTE SA INCEPEM</h1>
+                <p class="subtitle">Am ceva important de spus.</p>
+            </div>
+        </div>
+
+        <!-- Slide 2 -->
+        <div class="slide slide-2" data-slide="2">
+            <div class="slide-content">
+                <p class="main-text">
+                    Ceea ce vei vedea diseara<br>
+                    este <span class="highlight">UN FRAGMENT</span>.
+                </p>
+                <div class="blockquote">
+                    <div class="blockquote-line"></div>
+                    <p class="blockquote-text">
+                        O mostra dintr-un spatiu mai mare<br>
+                        pe care l-am construit in ultimii ani.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 3 -->
+        <div class="slide slide-3" data-slide="3">
+            <div class="slide-content">
+                <h1 class="brand">LECTORIUM.</h1>
+                <p class="description">
+                    Zeci de lectii ca aceasta.<br>
+                    Pe relatii. Pe bani. Pe anxietate.<br>
+                    Pe directie. Pe comunicare.
+                </p>
+                <p class="conclusion">
+                    Fiecare raspunde la <span class="highlight">O durere concreta</span>.
+                </p>
+            </div>
+        </div>
+
+        <!-- Slide 4 -->
+        <div class="slide slide-4" data-slide="4">
+            <div class="slide-content">
+                <h2 class="title">LA FINAL am sa-ti arat:</h2>
+                <div class="list">
+                    <div class="list-item">
+                        <span class="arrow">&#8594;</span>
+                        <span>Cum arata acest spatiu</span>
+                    </div>
+                    <div class="list-item">
+                        <span class="arrow">&#8594;</span>
+                        <span>Ce gasesti acolo</span>
+                    </div>
+                    <div class="list-item">
+                        <span class="arrow">&#8594;</span>
+                        <span>Si cum poti fi parte din el<br>
+                        <span class="indented highlight">INAINTE sa se deschida pentru toata lumea</span></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 5 -->
+        <div class="slide slide-5" data-slide="5">
+            <div class="slide-content">
+                <p class="intro">De aceea &#8212; ramai pana la final.</p>
+                <div class="banner">
+                    <p class="banner-text">
+                        Ce vei auzi acolo<br>
+                        <span class="emphasis">NU</span> va fi disponibil pentru toti.
+                    </p>
+                </div>
+                <p class="cta">Acum &#8212; hai in continut.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="nav-container">
+        <button class="nav-btn" id="prevBtn" onclick="prevSlide()" disabled>
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3">
+                <path d="M15 18l-6-6 6-6"/>
+            </svg>
+        </button>
+        <span class="slide-indicator"><span id="currentSlide">1</span> / <span id="totalSlides">5</span></span>
+        <button class="nav-btn" id="nextBtn" onclick="nextSlide()">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3">
+                <path d="M9 18l6-6-6-6"/>
+            </svg>
+        </button>
+    </div>
+
+    <script>
+        let currentSlide = 1;
+        const totalSlides = 5;
+
+        function showSlide(n) {
+            // Clamp slide number
+            if (n < 1) n = 1;
+            if (n > totalSlides) n = totalSlides;
+
+            currentSlide = n;
+
+            // Update slides
+            document.querySelectorAll('.slide').forEach(slide => {
+                slide.classList.remove('active');
+            });
+            document.querySelector(`[data-slide="${n}"]`).classList.add('active');
+
+            // Update indicator
+            document.getElementById('currentSlide').textContent = n;
+
+            // Update progress bar
+            const progress = ((n - 1) / (totalSlides - 1)) * 100;
+            document.getElementById('progressBar').style.width = progress + '%';
+
+            // Update buttons
+            document.getElementById('prevBtn').disabled = (n === 1);
+            document.getElementById('nextBtn').disabled = (n === totalSlides);
+        }
+
+        function nextSlide() {
+            if (currentSlide < totalSlides) {
+                showSlide(currentSlide + 1);
+            }
+        }
+
+        function prevSlide() {
+            if (currentSlide > 1) {
+                showSlide(currentSlide - 1);
+            }
+        }
+
+        function toggleFullscreen() {
+            if (!document.fullscreenElement) {
+                document.documentElement.requestFullscreen().catch(err => {
+                    console.log('Fullscreen error:', err);
+                });
+            } else {
+                document.exitFullscreen();
+            }
+        }
+
+        // Keyboard navigation
+        document.addEventListener('keydown', (e) => {
+            switch(e.key) {
+                case 'ArrowRight':
+                case 'ArrowDown':
+                case ' ':
+                case 'PageDown':
+                    e.preventDefault();
+                    nextSlide();
+                    break;
+                case 'ArrowLeft':
+                case 'ArrowUp':
+                case 'PageUp':
+                    e.preventDefault();
+                    prevSlide();
+                    break;
+                case 'Home':
+                    e.preventDefault();
+                    showSlide(1);
+                    break;
+                case 'End':
+                    e.preventDefault();
+                    showSlide(totalSlides);
+                    break;
+                case 'f':
+                case 'F':
+                    toggleFullscreen();
+                    break;
+            }
+        });
+
+        // Touch/swipe support
+        let touchStartX = 0;
+        let touchEndX = 0;
+
+        document.addEventListener('touchstart', (e) => {
+            touchStartX = e.changedTouches[0].screenX;
+        });
+
+        document.addEventListener('touchend', (e) => {
+            touchEndX = e.changedTouches[0].screenX;
+            handleSwipe();
+        });
+
+        function handleSwipe() {
+            const swipeThreshold = 50;
+            const diff = touchStartX - touchEndX;
+
+            if (Math.abs(diff) > swipeThreshold) {
+                if (diff > 0) {
+                    nextSlide();
+                } else {
+                    prevSlide();
+                }
+            }
+        }
+
+        // Initialize
+        showSlide(1);
+    </script>
+</body>
+</html>
