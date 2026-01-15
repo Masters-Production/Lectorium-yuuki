@@ -2,19 +2,27 @@
 
 Strategii și materiale pentru warmup-ul Lectorium
 
-## Campania 15-27 Ianuarie 2025
+## Campania 15 Ianuarie - 1 Februarie 2025
 
 ### Obiectiv
-Warmup de 13 zile cu 4 webinare gratuite care duc la vânzarea abonamentelor Lectorium (platformă online cu lecții video despre relații, bani și setarea scopurilor).
+Warmup de 13 zile cu 4 webinare gratuite care duc la vânzarea abonamentelor Lectorium (platformă online cu lecții video despre relații, bani și setarea scopurilor), urmat de 5 zile de follow-up intens cu deadline.
 
 ### Structura Campaniei
-- **Zilele 1-2**: Anticipare și primul webinar (Live 1)
-- **Zilele 3-4**: Consolidare și al doilea webinar (Live 2) + Sneak Peek #1
-- **Zilele 5-6**: Intensificare și al treilea webinar (Live 3) + Testimonial
-- **Zilele 7-8**: Creștere urgență
-- **Zilele 9-10**: Al patrulea webinar (Live 4) cu demo + Sneak Peek #2
-- **Zilele 11-12**: Pre-lansare + Sneak Peek #3
-- **Ziua 13**: Webinar de vânzare + Urgență maximă
+
+**FAZA 1: WARMUP (15-27 Ianuarie)**
+- **Zilele 1-2**: Anticipare și primul webinar (Live 3: Tipuri de depresie)
+- **Zilele 3-4**: Consolidare + Sneak Peek #1 (Relații) + Poll
+- **Zilele 5-8**: Teaser Live 4 + Reminder-uri
+- **Zilele 8-9**: Live 4 (Nu știu ce vreau + Demo Lectorium) + Sneak Peek #2 (Scopuri)
+- **Zilele 10-12**: Contrast + Sneak Peek #3 (Bani) + Diferențiere
+- **Ziua 13**: Webinar de vânzare
+
+**FAZA 2: FOLLOW-UP (28 ian - 1 feb)**
+- **Ziua 14**: Agitație — cost-ul inacțiunii, de ce ACUM
+- **Ziua 15**: Obiecții distruse (timp, funcționează) + social proof
+- **Ziua 16**: Penultima zi — presiune maximă, obiecție bani
+- **Ziua 17**: DEADLINE — countdown intensiv (17h → 5min)
+- **Ziua 18**: Post-campanie — emails separate pentru cumpărători/non-cumpărători
 
 ### Canale de Comunicare
 - Chat Telegram (principal)
@@ -35,44 +43,59 @@ Warmup de 13 zile cu 4 webinare gratuite care duc la vânzarea abonamentelor Lec
 | `teme-zilnice-15-27-ianuarie.md` | Temele zilnice cu puncte cheie |
 | `mesaje-complete-15-27-ianuarie.md` | Toate mesajele pentru 13 zile |
 | `sneak-peek-fragmente.md` | Fragmentele pentru cele 3 sneak peek-uri |
-| `CAMPANIE-FINALA-15-27-IANUARIE.md` | **DOCUMENT PRINCIPAL** - Tot integrat într-un singur fișier executabil |
+| `CAMPANIE-FINALA-15-27-IANUARIE.md` | **DOCUMENT PRINCIPAL** - Warmup complet (13 zile, 37+ mesaje) |
+| `FOLLOWUP-28-31-IANUARIE.md` | **FOLLOW-UP** - După webinar vânzare (5 zile, 31 mesaje) |
 
 ---
 
 ## Cum să Folosești
 
-### 1. Citește documentul final
-Deschide `Warmup/CAMPANIE-FINALA-15-27-IANUARIE.md` - conține tot ce ai nevoie.
+### 1. Citește documentele principale
+- `Warmup/CAMPANIE-FINALA-15-27-IANUARIE.md` — pentru perioada de warmup
+- `Warmup/FOLLOWUP-28-31-IANUARIE.md` — pentru follow-up după webinar vânzare
 
 ### 2. Completează placeholderii
-Caută și înlocuiește:
+Caută și înlocuiește în AMBELE documente:
 - `[ORA]` - ora exactă a webinarelor
 - `[LINK]` - link-ul de înregistrare/participare
 - `[LINK REPLAY]` - link-ul către replay
 - `[LINK CHECKOUT]` - link-ul de cumpărare
-- Prețurile pentru fiecare tip de abonament
+- `[PREȚ]` - prețurile pentru fiecare pachet (1/3/6/12 luni)
+- `[X]%` - procentul de economii și creștere preț
+- `[BONUSURI]` - bonusurile pentru perioada de lansare
 
-### 3. Pregătește testimonialul
-În Ziua 6 ai nevoie de un testimonial despre "claritate în direcție". Structura necesară:
-- Cine e persoana (prenume, vârstă, ocupație)
-- Cum era înainte de Lectorium
-- Ce a descoperit/schimbat
-- Cum e acum
+### 3. Pregătește testimonialele
+- **Ziua 6 (warmup)**: Testimonial despre "claritate în direcție"
+- **Ziua 15 (follow-up)**: Testimonial despre timp ("acum dorm noaptea")
 
-### 4. Urmează calendarul executiv
-Documentul final conține un tabel cu toate cele 37 de mesaje programate pe zile și ore.
+### 4. Urmează calendarele executive
+- Warmup: 37+ mesaje pe 13 zile
+- Follow-up: 31 mesaje pe 5 zile (inclusiv countdown intensiv în ultima zi)
 
 ---
 
-## Ajustări Cheie în Strategie (v1 → v2)
+## Ajustări Cheie în Strategie
 
-| Problemă în v1 | Soluție în v2 |
-|----------------|---------------|
+| Problemă inițială | Soluție implementată |
+|-------------------|---------------------|
 | Lectorium invizibil | 3 Sneak Peek-uri cu conținut real |
-| Fără demo | Demo în Live 4 (ziua 9) |
+| Fără demo | Demo în Live 4 (ziua 8) |
 | Fără diferențiere | Secțiune explicită vs YouTube/terapie/cărți |
-| Fără testimoniale | Ziua 6 dedicată testimonialului |
-| Fără diagnostic audiență | Poll în ziua 7 |
+| Fără testimoniale | Testimoniale în Ziua 6 și Ziua 15 |
+| Fără diagnostic audiență | Poll în ziua 4 |
+| Follow-up slab | **31 mesaje intensive** cu agitație, obiecții distruse, countdown |
+
+---
+
+## Statistici Campanie
+
+| Metrică | Warmup | Follow-up | Total |
+|---------|--------|-----------|-------|
+| Zile | 13 | 5 | 18 |
+| Mesaje Chat | ~25 | ~22 | ~47 |
+| Email-uri | ~8 | ~5 | ~13 |
+| SMS-uri | ~4 | ~2 | ~6 |
+| **Total mesaje** | **~37** | **~31** | **~68** |
 
 ---
 
@@ -81,7 +104,9 @@ Documentul final conține un tabel cu toate cele 37 de mesaje programate pe zile
 - Rată deschidere email: țintă 40%+
 - Participare webinare: țintă 30% din înscriși
 - Conversie vânzări: țintă 5-10% din participanți webinar final
+- Conversie follow-up: +2-3% din cei care nu au cumpărat imediat
 
 ---
 
 *Creat: Ianuarie 2025*
+*Actualizat: Ianuarie 2025 — Adăugat follow-up complet*
